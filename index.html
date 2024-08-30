@@ -124,6 +124,95 @@
                
                
             </div>
+
+            <div class="flex flex-col justify-center items-center">
+            <h1 class=" text-5xl font-black w-10/12 lg:w-1/2 leading-[120%] mt-9">BMI Calculator</h1>
+            <p class="w-1/2 text-[14px] opacity-[50%]">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            </div>
+        </section>
+
+
+        <!-- BMI Calculato -->
+
+        <section class="mt-28 bg-[#222] pb-20">
+            <div class="w-4/5 mx-auto pt-14 flex flex-col lg:flex-row justify-start items-start gap-x-52 gap-y-7"> 
+                 <!-- Chart -->
+                  
+                 <div>
+                <h2 class="font-black text-3xl mb-9">BMI Calculator Chart</h2>
+                    <table class="table-fixed border border-white p-9">
+                        <thead class="border border-white">
+                            <tr>
+                                <th  class="border border-white p-3">
+                                    BMI
+                                </th>
+                                <th class="border border-white p-3">
+                                    Weight Status
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody  class="border border-white">
+                            <tr>
+                                <td  class="border border-white p-3">
+                                    Below 18.5
+                                </td>
+                                <td  class="border border-white p-3">
+                                    Underweight
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  class="border border-white p-3">
+                                    18.5 - 24.9
+                                </td>
+                                <td  class="border border-white p-3">
+                                    Normal Weight
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  class="border border-white p-3">
+                                    25 - 29.9
+                                </td>
+                                <td  class="border border-white p-3">
+                                    Overweight
+                                </td>
+                            </tr>
+                            <tr>
+                                <td  class="border border-white p-3">
+                                    30 or above
+                                </td>
+                                <td  class="border border-white p-3">
+                                    Obese
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                  </div>
+                  <div>
+                    <h2 class="font-black text-3xl mb-3">Calculate Your BMI</h2>
+                    <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. </p>
+
+                    <form class="mt-9 grid grid-cols-2 gap-3 " action="">
+                        <input class="bg-black py-3 px-5 rounded-xl" type="number" placeholder="Height/cm">
+                        <input class="bg-black py-3 px-5 rounded-xl" type="number" placeholder="Weight/kg">
+                        <input class="bg-black py-3 px-5 rounded-xl" type="number" placeholder="age">
+                        <input class="bg-black py-3 px-5 rounded-xl" type="number" placeholder="sex">
+                        <select  class="bg-black py-3 px-5 rounded-xl col-span-2" name="" id="" >
+                            <option value="">Select an activity factor</option>
+                        </select>
+                        <button class="btn-primary px-10 py-4 rounded-[42px] bg-primary w-full col-span-2   ">Calculate</button>
+
+                            
+                    </form>
+                  </div>
+            </div> 
+        </section>
+
+        <!-- Trainers
+          -->
+        <section>
+                <h1>Meet Our Teams
+                    
+                </h1>
         </section>
     </main>
 </body>
